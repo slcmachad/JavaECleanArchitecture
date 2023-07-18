@@ -10,6 +10,15 @@ public class Email {
 		
 		this.endereco = endereco;
 	}
+
+	public Object getEndereco() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
 	
 	
 }
