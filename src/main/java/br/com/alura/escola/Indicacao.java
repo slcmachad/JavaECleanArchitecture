@@ -2,6 +2,8 @@ package br.com.alura.escola;
 
 import java.time.LocalDateTime;
 
+import br.com.alura.escola.aluno.Aluno;
+
 public class Indicacao {
 
 	private Aluno indicado;
