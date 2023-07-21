@@ -27,8 +27,7 @@ public class RepositorioDeAlunosEmMemoria implements RepositorioDeAlunos{
 
 	@Override
 	public List<Aluno> listarTodosAlunoMatriculados() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.matriculados;
 	}
 
 }
