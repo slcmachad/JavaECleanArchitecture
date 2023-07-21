@@ -11,9 +11,9 @@ public class Email {
 		this.endereco = endereco;
 	}
 
-	public Object getEndereco() {
+	public String getEndereco() {
 		// TODO Auto-generated method stub
-		return null;
+		return endereco;
 	}
 
 	public void setEndereco(String endereco) {
