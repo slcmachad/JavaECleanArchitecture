@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.alura.escola.dominio.aluno.Aluno;
+import br.com.alura.escola.dominio.aluno.AlunoNaoEncontrado;
 import br.com.alura.escola.dominio.aluno.CPF;
 import br.com.alura.escola.dominio.aluno.RepositorioDeAlunos;
 
@@ -18,8 +19,10 @@ public class RepositorioDeAlunosEmMemoria implements RepositorioDeAlunos{
 
 	@Override
 	public Aluno buscarPorCpf(CPF cpf) {
-		// TODO Auto-generated method stub
-		return null;
+		return this.matriculados.stream()
+				.filter(a -> a.getCpf().equals(cpf.getNumero()))
+				.findFirst()
+				.orElseThrow(() -> new AlunoNaoEncontrado(cpf));
 	}
 
 	@Override
