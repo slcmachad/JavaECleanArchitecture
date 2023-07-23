@@ -6,7 +6,7 @@ import br.com.alura.escola.dominio.aluno.Email;
 import br.com.alura.escola.dominio.aluno.RepositorioDeAlunos;
 import br.com.alura.escola.infra.aluno.RepositorioDeAlunosEmMemoria;
 
-public class MatricularAluno {
+public class MatricularAlunoMain {
 
 	public static void main(String[] args) {
 		String nome = "fulano";
