@@ -9,4 +9,8 @@ public class MatricularAluno {
 	public MatricularAluno(RepositorioDeAlunos repositorio) {
 		this.repositorio = repositorio;
 	}
+	
+	public void Matricular(MatricularAlunoDTO dados) {
+		
+	}
 }
