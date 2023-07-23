@@ -1,5 +1,6 @@
 package br.com.alura.escola.aplicacao.aluno.matricular;
 
+import br.com.alura.escola.dominio.aluno.Aluno;
 import br.com.alura.escola.dominio.aluno.RepositorioDeAlunos;
 
 public class MatricularAluno {
@@ -11,6 +12,6 @@ public class MatricularAluno {
 	}
 	
 	public void Matricular(MatricularAlunoDTO dados) {
-		
+		Aluno novo = dados.criarAluno();
 	}
 }
