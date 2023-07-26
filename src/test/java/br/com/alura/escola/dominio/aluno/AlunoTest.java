@@ -26,6 +26,15 @@ class AlunoTest {
 		this.aluno.adicionarTelefone("51","12345677");
 		assertEquals(2, this.aluno.getTelefones().size());
 	}
+
+	@Test
+	void naoDeveriaPermitirAdicionar3Telefones() {
+		assertThrows(IllegalArgumentException.class, () -> {
+			this.aluno.adicionarTelefone("51","12345678");
+			this.aluno.adicionarTelefone("51","12345677");
+			this.aluno.adicionarTelefone("51","12345676");
+		});
+	}
 	
 
 }
