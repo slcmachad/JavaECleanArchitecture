@@ -1,9 +1,6 @@
 # Java E Clean Architecture
 
-Curso sobre Clean Architecture com java.
+# Aplicação Escola
 
-Criando uma aplicação para simular uma escola.
+A aplicação Escola é um sistema desenvolvido para gerenciar informações de alunos em uma escola. Ela permite realizar ações como cadastrar novos alunos, registrar indicações feitas por alunos, realizar matrículas e manter um repositório de alunos. Além disso, a aplicação inclui testes automatizados utilizando JUnit para garantir o bom funcionamento das funcionalidades implementadas.
 
-* Possui instancia para poder matricular alunos.
-* Possui metodos para que um aluno indique outro.
-* Possui testes de integração para verificar se as classes e metodos stão funcionando.
