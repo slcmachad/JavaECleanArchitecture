@@ -23,4 +23,8 @@ A funcionalidade de indicação permite que um aluno indique outro aluno para a 
 
 A funcionalidade de matricular permite que um novo aluno seja cadastrado no sistema da escola. Ao realizar a matrícula, são solicitados os dados do aluno, como CPF, nome, email e telefones, e essas informações são armazenadas no repositório de alunos da escola.
 
+### 4. Repositório de Alunos
+
+O repositório de alunos é uma estrutura que armazena todas as informações dos alunos cadastrados na escola. Ele permite consultar, adicionar, atualizar e remover registros de alunos.
+
 
