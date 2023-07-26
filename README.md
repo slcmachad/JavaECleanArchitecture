@@ -14,3 +14,9 @@ A classe Aluno é responsável por representar um aluno na escola e possui os se
 - **Nome**: nome completo do aluno.
 - **Email**: endereço de email do aluno.
 - **Telefones**: lista de números de telefone do aluno, que pode conter um ou mais números.
+
+### 2. Indicação
+
+A funcionalidade de indicação permite que um aluno indique outro aluno para a escola. Isso pode ser útil para que novos alunos sejam atraídos por meio de indicações de alunos já matriculados, incentivando assim a comunidade escolar.
+
+
