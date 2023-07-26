@@ -27,4 +27,7 @@ A funcionalidade de matricular permite que um novo aluno seja cadastrado no sist
 
 O repositório de alunos é uma estrutura que armazena todas as informações dos alunos cadastrados na escola. Ele permite consultar, adicionar, atualizar e remover registros de alunos.
 
+### 5. Testes com JUnit
+
+Para garantir o correto funcionamento das funcionalidades da aplicação, foram implementados testes automatizados utilizando a biblioteca JUnit. Esses testes abrangem cenários diversos e garantem a integridade das operações realizadas no sistema.
 
