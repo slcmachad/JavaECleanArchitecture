@@ -19,4 +19,8 @@ A classe Aluno é responsável por representar um aluno na escola e possui os se
 
 A funcionalidade de indicação permite que um aluno indique outro aluno para a escola. Isso pode ser útil para que novos alunos sejam atraídos por meio de indicações de alunos já matriculados, incentivando assim a comunidade escolar.
 
+### 3. Matricular
+
+A funcionalidade de matricular permite que um novo aluno seja cadastrado no sistema da escola. Ao realizar a matrícula, são solicitados os dados do aluno, como CPF, nome, email e telefones, e essas informações são armazenadas no repositório de alunos da escola.
+
 
