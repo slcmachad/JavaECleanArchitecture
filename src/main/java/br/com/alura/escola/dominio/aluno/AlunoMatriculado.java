@@ -6,10 +6,23 @@ import br.com.alura.escola.dominio.Evento;
 
 public class AlunoMatriculado implements Evento {
 
+	private final CPF cfpDoAluno;
+	
+
+	private final LocalDateTime momento;
+
+	public AlunoMatriculado(CPF cfpDoAluno) {
+		this.cfpDoAluno = cfpDoAluno;
+		this.momento = LocalDateTime.now();
+	}
+	
 	@Override
 	public LocalDateTime momento() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.momento;
+	}
+
+	public CPF getCfpDoAluno() {
+		return cfpDoAluno;
 	}
 
 }
