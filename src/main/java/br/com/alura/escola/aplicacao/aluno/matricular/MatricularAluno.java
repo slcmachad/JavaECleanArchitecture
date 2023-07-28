@@ -20,7 +20,7 @@ public class MatricularAluno {
 		Aluno novo = dados.criarAluno();
 		repositorio.matricular(novo);
 		
-		AlunoMatriculado evento = new AlunoMatriculado(novo.getCpf())
+		AlunoMatriculado evento = new AlunoMatriculado(novo.getCpf());
 		publicador.publicar(evento);
 	}
 }
