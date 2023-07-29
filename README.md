@@ -31,3 +31,4 @@ O repositório de alunos é uma estrutura que armazena todas as informações do
 
 Para garantir o correto funcionamento das funcionalidades da aplicação, foram implementados testes automatizados utilizando a biblioteca JUnit. Esses testes abrangem cenários diversos e garantem a integridade das operações realizadas no sistema.
 
+### 6. Sistema de Selos como recompensa por atividade
