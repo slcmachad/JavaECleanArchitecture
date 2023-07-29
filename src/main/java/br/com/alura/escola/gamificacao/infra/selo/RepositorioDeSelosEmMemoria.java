@@ -2,7 +2,6 @@ package br.com.alura.escola.gamificacao.infra.selo;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import br.com.alura.escola.gamificacao.dominio.selo.RepositorioDeSelos;
