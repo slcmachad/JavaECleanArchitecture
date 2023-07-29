@@ -1,4 +1,4 @@
-package br.com.alura.escola.academico.infra.selo;
+package br.com.alura.escola.gamificacao.infra.selo;
 
 import java.util.ArrayList;
 import java.util.List;
