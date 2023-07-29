@@ -2,6 +2,8 @@ package br.com.alura.escola.infra.selo;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 import br.com.alura.escola.dominio.aluno.CPF;
 import br.com.alura.escola.dominio.selo.RepositorioDeSelos;
@@ -18,7 +20,10 @@ public class RepositorioDeSelosEmMemoria implements RepositorioDeSelos{
 
 	@Override
 	public List<Selo> selosDoAlunoDeCPF(CPF cpf) {
-		return this.selos.stream().filter(s -> s.getCpfDoAluno().));
+		return this.selos
+				.stream()
+				.filter(s -> s.getCpfDoAluno().equals(cpf))
+				.collect(Collectors.toList());
 	}
 
 }
