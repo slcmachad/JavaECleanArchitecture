@@ -1,4 +1,4 @@
-package br.com.alura.escola.gamificacao.selo;
+package br.com.alura.escola.gamificacao.dominio.selo;
 
 import br.com.alura.escola.academico.dominio.aluno.CPF;
 
