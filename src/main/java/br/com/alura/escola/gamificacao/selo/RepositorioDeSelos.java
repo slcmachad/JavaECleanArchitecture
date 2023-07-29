@@ -1,4 +1,4 @@
-package br.com.alura.escola.academico.dominio.selo;
+package br.com.alura.escola.gamificacao.selo;
 
 import java.util.List;
 
