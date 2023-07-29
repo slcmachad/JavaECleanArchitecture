@@ -33,3 +33,7 @@ Para garantir o correto funcionamento das funcionalidades da aplicação, foram 
 
 ### 6. Sistema de Selos como recompensa por atividade
 Ainda a ser inplementado.
+
+
+### 7. DDD(Domain Driven Design)
+
